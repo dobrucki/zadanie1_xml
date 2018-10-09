@@ -20,12 +20,12 @@
 			<category name="cognac" catId="CG" />
 			<category name="whisky" catId="WK" />
 			<category name="beer" catId="BR" />
-		</categories>
+		</cat" unitId="PV" />
+		</uniegories>
 		<units>
 			<unit name="PLN" unitId="PLN" />
 			<unit name="CL" unitId="CL" />
-			<unit name="percentage" unitId="PV" />
-		</units>
+			<unit name="percentagets>
 		<manufacturers>
 			<manufacturer name="Absolut" manId="ABS" />
 		</manufacturers>
@@ -33,13 +33,13 @@
 		<products>
 			<product catId="VD">
 				<name>Żołądkowa de Luxe Pieprzow</name>
-				<manufacturer />
-				<price>20zł</price>
+				<manufacturer manId="ABS">Absolut</manufacturer>
+				<price unitId="PLN">20</price>
 				<description>Żołądkowa de Luxe Pieprzowa to połączenie doskonałej czystej wódki z naturalnym czarnym pieprzem. Aromatyczna intensywność owoców Piper nigrum wzbogaca neutralny smak i dodaje wytrawności, wyrazistości i mocy.</description>
-				<volume>50cl</volume>
-				<strength>40%</strength>
+				<volume unitId="CL">50</volume>
+				<strength unitId="PV">40</strength>
 			</product>
-		</product>
+		</products>
 		
 	
 	</alcohol_wholesale>
