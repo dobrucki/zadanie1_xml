@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="style.css" ?>
-<!DOCTYPE document [
-	<!ENTITY id0 "Żołądkowa">
-]>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE alcohol SYSTEM "DTDtest.dtd">
+
 <document>
 	<information>
 		<creators>
 			<author>Jędrzej Dobrucki</author>
 			<author>Kamil Celejewski</author>
 		</creators>
-		<last_mod date="2018-10-09" />
+		<last_mod date="2018-10-13"/>
 	</information>
 
 	<alcohol_wholesale>
+		
 		<categories>
 			<category name="vodka" catId="VD" />
 			<category name="white-wine" catId="WW" />
@@ -21,11 +21,13 @@
 			<category name="whisky" catId="WK" />
 			<category name="beer" catId="BR" />
 		</categories>
+		
 		<units>
 			<unit name="PLN" unitId="PLN" />
 			<unit name="CL" unitId="CL" />
 			<unit name="percentage" unitId="PV" />
 		</units>
+		
 		<manufacturers>
 			<manufacturer name="Absolut" manId="ABS" />
 		</manufacturers>
@@ -36,11 +38,10 @@
 				<manufacturer manId="ABS">Absolut</manufacturer>
 				<price unitId="PLN">20</price>
 				<description>Żołądkowa de Luxe Pieprzowa to połączenie doskonałej czystej wódki z naturalnym czarnym pieprzem. Aromatyczna intensywność owoców Piper nigrum wzbogaca neutralny smak i dodaje wytrawności, wyrazistości i mocy.</description>
-				<volume>50cl</volume>
-				<strength>40%</strength>
+				<volume unitId="CL">50cl</volume>
+				<strength unitId="PV">40%</strength>
 			</product>
-		</products>
-		
+		</products>	
 	
 	</alcohol_wholesale>
 	

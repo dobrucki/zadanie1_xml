@@ -1,0 +1,7 @@
+<!ELEMENT document (information, alcohol_wholesale)>
+<!ELEMENT information (creators, last_mod)>
+<!ELEMENT creators (author+)>
+<!ELEMENT last_mod EMPTY>
+<!ELEMENT author (#PCDATA)>
+
+<!ATTLIST last_mod date CDATA #REQUIRED>
