@@ -4,4 +4,16 @@
 <!ELEMENT last_mod EMPTY>
 <!ELEMENT author (#PCDATA)>
 
+<!ELEMENT alcohol_wholesale (categories, units, manufacturers ,products)>
+<!ELEMENT categories (category+)>
+<!ELEMENT category EMPTY>
+<!ELEMENT units (unit+)>
+<!ELEMENT unit EMPTY>
+<!ELEMENT manufacturers (manufacturer+)>
+<!ELEMENT manufacturer EMPTY>
+
+
 <!ATTLIST last_mod date CDATA #REQUIRED>
+<!ATTLIST category name NMTOKEN #REQUIRED catId ID #REQUIRED>
+<!ATTLIST unit name NMTOKEN #REQUIRED unitId ID #REQUIRED>
+<!ATTLIST manufacturer name NMTOKEN #REQUIRED manId ID #REQUIRED>

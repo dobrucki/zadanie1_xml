@@ -23,8 +23,8 @@
 		</categories>
 		
 		<units>
-			<unit name="PLN" unitId="PLN" />
-			<unit name="CL" unitId="CL" />
+			<unit name="pln" unitId="PLN" />
+			<unit name="cl" unitId="CL" />
 			<unit name="percentage" unitId="PV" />
 		</units>
 		
@@ -35,7 +35,7 @@
 		<products>
 			<product catId="VD">
 				<name>Żołądkowa de Luxe Pieprzow</name>
-				<manufacturer manId="ABS">Absolut</manufacturer>
+				<producent manId="ABS">Absolut</producent>
 				<price unitId="PLN">20</price>
 				<description>Żołądkowa de Luxe Pieprzowa to połączenie doskonałej czystej wódki z naturalnym czarnym pieprzem. Aromatyczna intensywność owoców Piper nigrum wzbogaca neutralny smak i dodaje wytrawności, wyrazistości i mocy.</description>
 				<volume unitId="CL">50cl</volume>
