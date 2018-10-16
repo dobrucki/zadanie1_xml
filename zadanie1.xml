@@ -20,6 +20,7 @@
 			<category name="cognac" catId="c04">koniak</category>
 			<category name="whisky" catId="c05">whisky</category>
 			<category name="beer" catId="c06">piwo</category>
+			<category name="absinth" catId="c07">absynt</category>
 		</categories>
 		
 		<units>
@@ -29,17 +30,17 @@
 		</units>
 		
 		<manufacturers>
-			<manufacturer name="Absolut" manId="m01" />
+			<manufacturer name="Mr. Jekyll" manId="m01" />
 		</manufacturers>
 		
 		<products>
 			<product catId="c01" id="p01">
-				<name>Żołądkowa de Luxe Pieprzow</name>
-				<producent manId="m01">Absolut</producent>
+				<name>Absinth</name>
+				<producent manId="m01">Mr. Jekyll</producent>
 				<price unitId="u01">20</price>
-				<description>Żołądkowa de Luxe Pieprzowa to połączenie doskonałej czystej wódki z naturalnym czarnym pieprzem. Aromatyczna intensywność owoców Piper nigrum wzbogaca neutralny smak i dodaje wytrawności, wyrazistości i mocy.</description>
+				<description>Oryginalny niemiecki absynt, owiany legendą szmaragdowy trunek na bazie piołunu i anyżku, których ziołowa słodycz dominuje nad goryczką, czyniąc go alkoholem o szerokim zastosowaniu- polecany do smakowania z lodem, jak i w drinkach z colą i sokami owocowymi.</description>
 				<volume unitId="u02">50</volume>
-				<strength unitId="u03">40</strength>
+				<strength unitId="u03">55</strength>
 			</product>
 		</products>	
 	
