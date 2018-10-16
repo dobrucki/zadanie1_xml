@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/css" href="style.css"?>
 <!DOCTYPE alcohol SYSTEM "DTDtest.dtd">
 
-<document>
+<document lang="PL">
 	<information>
 		<creators>
 			<author>Jędrzej Dobrucki</author>
@@ -14,32 +14,32 @@
 	<alcohol_wholesale>
 		
 		<categories>
-			<category name="vodka" catId="VD" />
-			<category name="white-wine" catId="WW" />
-			<category name="red-wine" catId="RW" />
-			<category name="cognac" catId="CG" />
-			<category name="whisky" catId="WK" />
-			<category name="beer" catId="BR" />
+			<category name="vodka" catId="c01">wódka</category>
+			<category name="white-wine" catId="c02">białe wino</category>
+			<category name="red-wine" catId="c03">czerwone wino</category>
+			<category name="cognac" catId="c04">koniak</category>
+			<category name="whisky" catId="c05">whisky</category>
+			<category name="beer" catId="c06">piwo</category>
 		</categories>
 		
 		<units>
-			<unit name="pln" unitId="PLN" />
-			<unit name="cl" unitId="CL" />
-			<unit name="percentage" unitId="PV" />
+			<unit name="pln" unitId="u01" />
+			<unit name="cl" unitId="u02" />
+			<unit name="percent" unitId="u03" />
 		</units>
 		
 		<manufacturers>
-			<manufacturer name="Absolut" manId="ABS" />
+			<manufacturer name="Absolut" manId="m01" />
 		</manufacturers>
 		
 		<products>
-			<product catId="VD">
+			<product catId="c01" id="p01">
 				<name>Żołądkowa de Luxe Pieprzow</name>
-				<producent manId="ABS">Absolut</producent>
-				<price unitId="PLN">20</price>
+				<producent manId="m01">Absolut</producent>
+				<price unitId="u01">20</price>
 				<description>Żołądkowa de Luxe Pieprzowa to połączenie doskonałej czystej wódki z naturalnym czarnym pieprzem. Aromatyczna intensywność owoców Piper nigrum wzbogaca neutralny smak i dodaje wytrawności, wyrazistości i mocy.</description>
-				<volume unitId="CL">50cl</volume>
-				<strength unitId="PV">40%</strength>
+				<volume unitId="u02">50</volume>
+				<strength unitId="u03">40</strength>
 			</product>
 		</products>	
 	
