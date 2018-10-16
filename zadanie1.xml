@@ -31,16 +31,26 @@
 		
 		<manufacturers>
 			<manufacturer name="Mr. Jekyll" manId="m01" />
+			<manufacturer name="Bushmills" manId="m02" />
 		</manufacturers>
 		
 		<products>
 			<product catId="c01" id="p01">
 				<name>Absinth</name>
 				<producent manId="m01">Mr. Jekyll</producent>
-				<price unitId="u01">20</price>
+				<price unitId="u01">79,99</price>
 				 <description>Oryginalny niemiecki absynt, owiany legendą szmaragdowy trunek na bazie piołunu i anyżku, których ziołowa słodycz dominuje nad goryczką, czyniąc go alkoholem o szerokim zastosowaniu- polecany do smakowania z lodem, jak i w drinkach z colą i sokami owocowymi.</description> 
 				<volume unitId="u02">50</volume>
 				<strength unitId="u03">55</strength>
+			</product>
+
+			<product catId="c05" id="p02">
+				<name>Bushmills Malt 10YO</name>
+				<producent manId="m02">Bushmills</producent>
+				<price unitId="u01">199,99</price>
+				 <description>Irlandzka whiskey typu single malt, dojrzewająca przez 10 lat w beczkach po bourbonie. Trzykrotnie destylowana, jak każda irlandzka whiskey. Aromaty miodu, wanilii i czekolady, lekko wytrawny finisz.</description> 
+				<volume unitId="u02">70</volume>
+				<strength unitId="u03">40</strength>
 			</product>
 		</products>	
 	
