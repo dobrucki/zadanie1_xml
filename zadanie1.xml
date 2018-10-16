@@ -52,6 +52,24 @@
 				<volume unitId="u02">70</volume>
 				<strength unitId="u03">40</strength>
 			</product>
+
+			<product catId="c01" id="p03">
+				<name>Wódka Krupnik Premium</name>
+				<producent manId="m02">Krupnik</producent>
+				<price unitId="u01">25,90</price>
+				 <description>Najwyższej jakości polska wódka, otrzymywana z wyselekcjonowanych gatunków zbóż i krystalicznie czystej wody. Sięga do tradycji cenionego w Polsce i na świecie Likieru Krupnik, którego oryginalna receptura pochodzi z XVII wieku. Krupnik Vodka stanowi udane połączenie polskiej tradycji i kunsztu nowoczesnej destylacji, gwarantującej łagodny smak najwyższej jakości alkoholu.</description> 
+				<volume unitId="u02">50</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+
+			<product catId="c03" id="p04">
+				<name>Wino Castelgiocondo</name>
+				<producent manId="m02">Castelgiocondo</producent>
+				<price unitId="u01">293,90</price>
+				 <description>Pełne dojrzałych owoców wino wypełnione po brzegi intensywnymi i bogatymi taninami. Nie zabraknie tutaj więc dorodnego bukietu na który składają się nuty wiśniowe, śliwkowe. W smaku wybitnie soczyste, wręcz orzeźwiające, dlatego idealne na upalne dni. Nic więc dziwnego, że to toskańskie wino zdobyło taką popularność. Rok jego pochodzenia przypada na 2006 rok, jednak swój smak zawdzięcza długiemu procesowi dojrzewania w beczkach. Najlepiej podawać wraz z gulaszami, duszonymi potrawami, ciastami. Końcówka świeża, bajeczna i zadowalająca.</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">12</strength>
+			</product>
 		</products>	
 	
 	</alcohol_wholesale>

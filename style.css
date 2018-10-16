@@ -33,7 +33,7 @@ product{
 	padding: 1em 2em;
 	box-sizing: border-box;
 	border: 2px solid #ddd;
-	min-height: 35vh;
+	min-height: 48vh;
 }
 
 product > * {
