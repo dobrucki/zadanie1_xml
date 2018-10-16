@@ -10,3 +10,55 @@ information
 {
 	display:none;
 }
+
+categories{
+	display: none;
+}
+
+products{
+	display: block;
+	min-width: 70vw;
+	max-width: 70vw;
+	background: white;
+	min-height: 20vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+product{
+	display: block;
+	width: 50%;
+	min-height: 300px;
+	background: black;
+	float: left;
+	padding: 1em 2em;
+	box-sizing: border-box;
+}
+
+product > * {
+	display: list-item;
+}
+
+product > name::before{
+	content: "Nazwa: ";
+}
+
+product > producent::before{
+	content: "Producent: ";
+}
+
+product > price::before{
+	content: "Cena: ";
+}
+
+product > description::before{
+	content: "Opis: ";
+}
+
+product > volume::before{
+	content: "Objętość: ";
+}
+
+product > strength::before{
+	content: "Zawartość alkoholu: ";
+}

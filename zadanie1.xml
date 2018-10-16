@@ -38,7 +38,31 @@
 				<name>Absinth</name>
 				<producent manId="m01">Mr. Jekyll</producent>
 				<price unitId="u01">20</price>
-				<description>Oryginalny niemiecki absynt, owiany legendą szmaragdowy trunek na bazie piołunu i anyżku, których ziołowa słodycz dominuje nad goryczką, czyniąc go alkoholem o szerokim zastosowaniu- polecany do smakowania z lodem, jak i w drinkach z colą i sokami owocowymi.</description>
+				 <description>Oryginalny niemiecki absynt, owiany legendą szmaragdowy trunek na bazie piołunu i anyżku, których ziołowa słodycz dominuje nad goryczką, czyniąc go alkoholem o szerokim zastosowaniu- polecany do smakowania z lodem, jak i w drinkach z colą i sokami owocowymi.</description> 
+				<volume unitId="u02">50</volume>
+				<strength unitId="u03">55</strength>
+			</product>
+			<product catId="c01" id="p01">
+				<name>Absinth</name>
+				<producent manId="m01">Mr. Jekyll</producent>
+				<price unitId="u01">20</price>
+				 <description>Oryginalny niemiecki absynt, owiany legendą szmaragdowy trunek na bazie piołunu i anyżku, których ziołowa słodycz dominuje nad goryczką, czyniąc go alkoholem o szerokim zastosowaniu- polecany do smakowania z lodem, jak i w drinkach z colą i sokami owocowymi.</description> 
+				<volume unitId="u02">50</volume>
+				<strength unitId="u03">55</strength>
+			</product>
+			<product catId="c01" id="p01">
+				<name>Absinth</name>
+				<producent manId="m01">Mr. Jekyll</producent>
+				<price unitId="u01">20</price>
+				 <description>Oryginalny niemiecki absynt, owiany legendą szmaragdowy trunek na bazie piołunu i anyżku, których ziołowa słodycz dominuje nad goryczką, czyniąc go alkoholem o szerokim zastosowaniu- polecany do smakowania z lodem, jak i w drinkach z colą i sokami owocowymi.</description> 
+				<volume unitId="u02">50</volume>
+				<strength unitId="u03">55</strength>
+			</product>
+			<product catId="c01" id="p01">
+				<name>Absinth</name>
+				<producent manId="m01">Mr. Jekyll</producent>
+				<price unitId="u01">20</price>
+				 <description>Oryginalny niemiecki absynt, owiany legendą szmaragdowy trunek na bazie piołunu i anyżku, których ziołowa słodycz dominuje nad goryczką, czyniąc go alkoholem o szerokim zastosowaniu- polecany do smakowania z lodem, jak i w drinkach z colą i sokami owocowymi.</description> 
 				<volume unitId="u02">50</volume>
 				<strength unitId="u03">55</strength>
 			</product>
