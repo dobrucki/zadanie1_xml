@@ -31,17 +31,19 @@
 		
 		<manufacturers>
 			<manufacturer name="Mr. Jekyll" manId="m01" />
+			<manufacturer name="Bushmills" manId="m02" />
 		</manufacturers>
 		
 		<products>
 			<product catId="c01" id="p01">
 				<name>Absinth</name>
 				<producent manId="m01">Mr. Jekyll</producent>
-				<price unitId="u01">20</price>
+				<price unitId="u01">79,99</price>
 				 <description>Oryginalny niemiecki absynt, owiany legendą szmaragdowy trunek na bazie piołunu i anyżku, których ziołowa słodycz dominuje nad goryczką, czyniąc go alkoholem o szerokim zastosowaniu- polecany do smakowania z lodem, jak i w drinkach z colą i sokami owocowymi.</description> 
 				<volume unitId="u02">50</volume>
 				<strength unitId="u03">55</strength>
 			</product>
+<<<<<<< HEAD
 			<product catId="c02" id="p02">
 				<name>The Three Wooly Sheep Sauvignon Blanc </name>
 				<producent manId="m01">Mr. Jekyll</producent>
@@ -55,9 +57,27 @@
 				<producent manId="m01">Mr. Jekyll</producent>
 				<price unitId="u01">20</price>
 				 <description>Oryginalny niemiecki absynt, owiany legendą szmaragdowy trunek na bazie piołunu i anyżku, których ziołowa słodycz dominuje nad goryczką, czyniąc go alkoholem o szerokim zastosowaniu- polecany do smakowania z lodem, jak i w drinkach z colą i sokami owocowymi.</description> 
-				<volume unitId="u02">50</volume>
-				<strength unitId="u03">55</strength>
+=======
+
+			<product catId="c05" id="p02">
+				<name>Bushmills Malt 10YO</name>
+				<producent manId="m02">Bushmills</producent>
+				<price unitId="u01">199,99</price>
+				 <description>Irlandzka whiskey typu single malt, dojrzewająca przez 10 lat w beczkach po bourbonie. Trzykrotnie destylowana, jak każda irlandzka whiskey. Aromaty miodu, wanilii i czekolady, lekko wytrawny finisz.</description> 
+				<volume unitId="u02">70</volume>
+				<strength unitId="u03">40</strength>
 			</product>
+
+			<product catId="c01" id="p03">
+				<name>Wódka Krupnik Premium</name>
+				<producent manId="m02">Krupnik</producent>
+				<price unitId="u01">25,90</price>
+				 <description>Najwyższej jakości polska wódka, otrzymywana z wyselekcjonowanych gatunków zbóż i krystalicznie czystej wody. Sięga do tradycji cenionego w Polsce i na świecie Likieru Krupnik, którego oryginalna receptura pochodzi z XVII wieku. Krupnik Vodka stanowi udane połączenie polskiej tradycji i kunsztu nowoczesnej destylacji, gwarantującej łagodny smak najwyższej jakości alkoholu.</description> 
+>>>>>>> 84dc7b228b0d2ac7f2f40e2fb94933f4e6ac4a40
+				<volume unitId="u02">50</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+<<<<<<< HEAD
 			<product catId="c02" id="p04">
 				<name>Absinth</name>
 				<producent manId="m01">Mr. Jekyll</producent>
@@ -65,6 +85,16 @@
 				 <description>Oryginalny niemiecki absynt, owiany legendą szmaragdowy trunek na bazie piołunu i anyżku, których ziołowa słodycz dominuje nad goryczką, czyniąc go alkoholem o szerokim zastosowaniu- polecany do smakowania z lodem, jak i w drinkach z colą i sokami owocowymi.</description> 
 				<volume unitId="u02">50</volume>
 				<strength unitId="u03">55</strength>
+=======
+
+			<product catId="c03" id="p04">
+				<name>Wino Castelgiocondo</name>
+				<producent manId="m02">Castelgiocondo</producent>
+				<price unitId="u01">293,90</price>
+				 <description>Pełne dojrzałych owoców wino wypełnione po brzegi intensywnymi i bogatymi taninami. Nie zabraknie tutaj więc dorodnego bukietu na który składają się nuty wiśniowe, śliwkowe. W smaku wybitnie soczyste, wręcz orzeźwiające, dlatego idealne na upalne dni. Nic więc dziwnego, że to toskańskie wino zdobyło taką popularność. Rok jego pochodzenia przypada na 2006 rok, jednak swój smak zawdzięcza długiemu procesowi dojrzewania w beczkach.</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">12</strength>
+>>>>>>> 84dc7b228b0d2ac7f2f40e2fb94933f4e6ac4a40
 			</product>
 		</products>	
 	
