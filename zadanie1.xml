@@ -12,7 +12,8 @@
 	</information>
 
 	<alcohol_wholesale>
-		
+		<brand>Dobcel</brand>
+
 		<categories>
 			<category name="vodka" catId="c01">wódka</category>
 			<category name="white-wine" catId="c02">białe wino</category>
