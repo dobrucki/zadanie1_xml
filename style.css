@@ -123,3 +123,13 @@ product > strength::before{
 product > strength::after{
 	content: "%";
 }
+
+footer{
+	display: block;
+	clear: both;
+	width: 100%;
+	height: calc((100vh - 4em - 4 * .7em - .4em) / 2);
+	background-color: rgb(30, 30, 30);
+	padding: 2em;
+	margin-top: 2em;
+}
