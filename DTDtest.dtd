@@ -23,6 +23,7 @@
 <!ELEMENT description (#PCDATA)>
 <!ELEMENT volume (#PCDATA)>
 <!ELEMENT strength (#PCDATA)>
+<!ELEMENT footer (#PCDATA)>
 
 
 <!ATTLIST last_mod date CDATA #REQUIRED>
