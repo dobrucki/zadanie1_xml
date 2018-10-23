@@ -4,16 +4,19 @@
 <!ELEMENT last_mod EMPTY>
 <!ELEMENT author (#PCDATA)>
 
-<!ELEMENT alcohol_wholesale (categories, units, manufacturers ,products)>
+<!ELEMENT alcohol_wholesale ANY>
+
+<!ELEMENT brand (#PCDATA)>
 
 <!ELEMENT categories (category+)>
-<!ELEMENT category EMPTY>
+<!ELEMENT category (#PCDATA)>
 
 <!ELEMENT units (unit+)>
 <!ELEMENT unit EMPTY>
 
 <!ELEMENT manufacturers (manufacturer+)>
 <!ELEMENT manufacturer EMPTY>
+
 
 <!ELEMENT products (product+)>
 <!ELEMENT product (name, producent, price+, description, volume, strength)>
@@ -25,13 +28,14 @@
 <!ELEMENT strength (#PCDATA)>
 <!ELEMENT footer (#PCDATA)>
 
-
+<!ATTLIST document lang CDATA #REQUIRED>
 <!ATTLIST last_mod date CDATA #REQUIRED>
-<!ATTLIST category name NMTOKEN #REQUIRED catId ID #REQUIRED>
-<!ATTLIST unit name NMTOKEN #REQUIRED unitId ID #REQUIRED>
-<!ATTLIST manufacturer name NMTOKEN #REQUIRED manId ID #REQUIRED>
+<!ATTLIST category name CDATA #REQUIRED catId ID #REQUIRED>
+<!ATTLIST unit name CDATA #REQUIRED unitId ID #REQUIRED>
+<!ATTLIST manufacturer name CDATA #REQUIRED manId ID #REQUIRED>
 <!ATTLIST product catId IDREF #REQUIRED>
 <!ATTLIST producent manId IDREF #REQUIRED>
 <!ATTLIST price unitId IDREF #REQUIRED>
 <!ATTLIST volume unitId IDREF #REQUIRED>
 <!ATTLIST strength unitId IDREF #REQUIRED>
+<!ATTLIST product id ID #REQUIRED>
